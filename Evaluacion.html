@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<title>Evaluación - Taller</title>
+
+<style>
+body {background:#f2c88a; font-family:"Times New Roman";}
+h1 {font-size:40px; font-family:Arial; color:darkorange; background:#ffc266; text-align:center;}
+h2 {font-family:Arial; color:brown; text-align:center;}
+p {font-style:italic; text-align:justify;}
+table {border:1px solid black; border-collapse:collapse; background:#fff0cc;}
+th {background-color:#ffd480;}
+td, th {border:1px solid black; padding:5px;}
+footer {text-align:center; font-style:italic;}
+</style>
+</head>
+
+<body>
+
+<h1>Evaluación de Taller</h1>
+
+<form>
+  <label><b>Nombre y Apellido:</b></label><br>
+  <input type="text" name="nombre_taller"><br><br>
+
+  <label><b>Grupo:</b></label><br>
+  <input type="text" name="grupo_taller"><br><br>
+
+  <label><b>Cédula de Identidad:</b></label><br>
+  <input type="text" name="ci_taller"><br><br>
+
+  <label><b>Fecha de entrega:</b></label><br>
+  <input type="date" name="fecha_taller"><br><br>
+
+  <div align="center">
+    <img src="Imagenes/evaluacion.jpg" width="260px">
+  </div>
+
+  <h2>Preguntas</h2>
+  <ol>
+    <li>¿Cuál es el principal objetivo de los talleres en el liceo?<br>
+      <input type="radio" name="preg1"> Desarrollar la creatividad y el trabajo en grupo<br>
+      <input type="radio" name="preg1"> Competir entre compañeros<br>
+      <input type="radio" name="preg1"> Repetir teorías sin práctica
+    </li><br>
+
+    <li>Explica por qué la seguridad y el respeto son importantes en un taller.<br>
+      <textarea name="preg2" rows="3" cols="60"></textarea>
+    </li><br>
+
+    <li>Selecciona los elementos que forman parte del trabajo en equipo:<br>
+      <input type="checkbox" name="preg3a"> Comunicación<br>
+      <input type="checkbox" name="preg3b"> Escucha activa<br>
+      <input type="checkbox" name="preg3c"> Egoísmo<br>
+      <input type="checkbox" name="preg3d"> Responsabilidad
+    </li><br>
+
+    <li>¿Qué tipo de taller promueve la creación musical y el uso de instrumentos?<br>
+      <input type="radio" name="preg4"> Taller de Arte<br>
+      <input type="radio" name="preg4"> Taller de Música<br>
+      <input type="radio" name="preg4"> Taller de Ciencias
+    </li><br>
+
+    <li>Relaciona cada actividad con el tipo de taller al que pertenece:</li>
+    <table align="center">
+      <tr><th>Actividad</th><th>Taller</th></tr>
+      <tr>
+        <td>Dibujo con carbonilla</td>
+        <td>
+          <select name="rel1">
+            <option value="">-- Selecciona --</option>
+            <option>Taller de Arte</option>
+            <option>Taller de Música</option>
+            <option>Taller de Ciencias</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Composición musical grupal</td>
+        <td>
+          <select name="rel2">
+            <option value="">-- Selecciona --</option>
+            <option>Taller de Arte</option>
+            <option>Taller de Música</option>
+            <option>Taller de Ciencias</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Experimento con materiales reciclables</td>
+        <td>
+          <select name="rel3">
+            <option value="">-- Selecciona --</option>
+            <option>Taller de Arte</option>
+            <option>Taller de Música</option>
+            <option>Taller de Ciencias</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <div align="center">Tabla 4: Relación entre actividades y tipo de taller</div>
+    <br>
+
+    <li>¿Qué beneficios tiene participar en un taller interdisciplinario?<br>
+      <textarea name="preg6" rows="3" cols="60"></textarea>
+    </li><br>
+
+    <li>¿Qué materiales se deben cuidar más en un taller artístico?<br>
+      <input type="checkbox" name="preg7a"> Pinceles y pinturas<br>
+      <input type="checkbox" name="preg7b"> Instrumentos musicales<br>
+      <input type="checkbox" name="preg7c"> Herramientas eléctricas<br>
+      <input type="checkbox" name="preg7d"> Papeles y lienzos
+    </li><br>
+
+    <li>Escribe tres normas básicas de convivencia en el taller:<br>
+      <textarea name="preg8" rows="3" cols="60"></textarea>
+    </li><br>
+
+    <li>¿Qué valores se fortalecen en los talleres del liceo?<br>
+      <input type="checkbox" name="preg9a"> Respeto<br>
+      <input type="checkbox" name="preg9b"> Empatía<br>
+      <input type="checkbox" name="preg9c"> Discriminación<br>
+      <input type="checkbox" name="preg9d"> Cooperación
+    </li><br>
+
+    <li>¿Qué aprendizaje personal te deja el trabajo colectivo en los talleres?<br>
+      <textarea name="preg10" rows="3" cols="60"></textarea>
+    </li>
+  </ol>
+
+  <input type="submit" value="Enviar evaluación">
+</form>
+
+<div align="center">
+<h2>Menú</h2>
+<a href="index.html">Inicio</a> |
+<a href="Programas.html">Programas</a> |
+<a href="Reglamento.html">Reglamento</a> |
+<a href="Evaluacion.html">Evaluación</a> |
+<a href="Temas.html">Temas</a>
+</div>
+
+<footer>2025 Valentino Scaglia 9°7</footer>
+
+</body>
+</html>
